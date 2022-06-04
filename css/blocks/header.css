@@ -44,11 +44,11 @@
 .header-login > * + * {
     margin-left: 35px;
 }
-.header-login a {
+.header-login-link {
     color: black;
 
 }
-.header-login a:hover {
+.header-login-link:hover {
     color: #01996D;
     transition: color 0.2s ease;
 
@@ -78,5 +78,11 @@
 .btn:hover, a.btn:hover {
     opacity: 0.8;
     color: white;
+}
+
+.btn-big, a.btn-big {
+    min-height: 65px;
+
+
 }
 
