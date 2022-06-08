@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alivia html project</title>
     <!--reset-->
@@ -15,6 +14,10 @@
     <link rel="stylesheet" href="./css/blocks/btn.css">
     <link rel="stylesheet" href="./css/blocks/how-it-works.css">
     <link rel="stylesheet" href="./css/blocks/story.css">
+    <link rel="stylesheet" href="./css/blocks/product.css">
+    <link rel="stylesheet" href="./css/blocks/card.css">
+    <link rel="stylesheet" href="./css/blocks/avatar.css">
+    <link rel="stylesheet" href="./css/blocks/footer.css">
 
     <!--fonts-->
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
@@ -71,9 +74,9 @@
 
     </section>
 
-    <section class="how-it-works none">
+    <section class="how-it-works">
         <div class="container">
-            <div class="how-it-works-header">
+            <div class="how-it-works-header none">
                 <div class="how-it-works-header-head">
                     <h2 class="how-it-works-title">How it works</h2>
                     <h3 class="how-it-works-subtitle">Understand & Release
@@ -90,7 +93,7 @@
             <div class="how-it-works-steps">
 
                 <div class="step">
-                    <h3 class="step-heading" data-number="01">Personalize</h3>
+                    <h4 class="step-heading" data-number="01">Personalize</h4>
                     <div class="step-text">
                         <p>
                             Answer a quick survey about how you express yourself, what causes you stress, and what area
@@ -105,7 +108,7 @@
                 <!--//step-->
 
                 <div class="step">
-                    <h3 class="step-heading" data-number="02">Write & Understand</h3>
+                    <h4 class="step-heading" data-number="02">Write & Understand</h4>
                     <div class="step-text">
                         <p>
                             Write, draw, reflect, understand. Alivio will guide you through the prompts and will help
@@ -120,7 +123,7 @@
                 <!--//step-->
 
                 <div class="step">
-                    <h3 class="step-heading" data-number="03">Alivio!</h3>
+                    <h4 class="step-heading" data-number="03">Alivio!</h4>
                     <div class="step-text">
                         <p>
                             Now you are aware, and have a way to manage and overcome your own stress.
@@ -139,11 +142,11 @@
     </section>
 
 
-    <section class="story">
-        <div class="container">
+    <section class="story none">
+        <div class="container container-wide">
             <div class="story-row">
                 <div class="story-content">
-                    <div class="story-heading">Let's hear about Kayla's success story</div>
+                    <h2 class="story-heading">Let's hear about Kayla's success story</h2>
                     <div class="story-text">
                         <p>See how well Alivio works in a real customer’s life.</p>
                     </div>
@@ -163,10 +166,66 @@
         </div>
     </section>
 </main>
+<section class="product none">
+    <div class="container">
+        <div class="product-row">
+            <div class="product-img-wrapper">
+                <img src="./img/photo.jpg" alt="Photo" class="product-img">
 
+                <div class="product-card">
+                    <div class="card">
+                        <h3 class="card-title">Customized For</h3>
 
-<footer>
+                        <div class="card-avatar">
+                            <div class="avatar">
+                                <img class="avatar-img" src="./img/ava.jpg" alt="ava">
+                                <h4 class="avatar-name">Mikayla</h4>
+                            </div>
+                        </div>
 
+                        <div class="card-contents">
+                            <h3 class="card-contents-title">Your custom contents</h3>
+                            <ul>
+                                <li>Understand Your Stress</li>
+                                <li>Anger Management</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-content">
+                <h2 class="product-content-title">Our product</h2>
+                <h3 class="product-content-subtitle"> You tell us your stress,
+                    We make your diary </h3>
+                <div class="product-content-text">
+                    <p> Everyone experiences it, and in different ways.
+                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                </div>
+                <div class="product-content-btn">
+                    <a href="#" class="btn btn-big">Find Your Way</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer none">
+    <div class="container">
+        <div class="footer-content">
+            <img class="footer-logo" src="./img/footer-logo.svg" alt="logo">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Why Alivio</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
 </footer>
 
