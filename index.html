@@ -32,7 +32,7 @@
 <header class="header">
     <div class="container">
         <div class="header-row">
-            <div class="header-logo"><img src="./img/logo.svg" alt="Logo" /></div>
+            <div class="header-logo"><img src="./img/logo.svg" alt="Logo"/></div>
             <nav class="header-nav">
                 <ul>
                     <li><a href="#">Why Alivio</a></li>
@@ -177,11 +177,21 @@
                     </div>
                 </div>
                 <div class="story-video">
-                    <div class="story-video-overlay"></div>
-                    <button class="story-video-btn">
-                        <img src="./img/play-white.svg" alt="Play">
-                    </button>
-                    <img src="./img/rec.jpg" alt="Video" class="story-video-object">
+                    <div id="video-story-overlay" class="story-video-overlay">
+                        <button id="video-story-btn" class="story-video-btn">
+                            <img id="video-story-btn-icon" width="82" height="82" src="./img/play-white.svg" alt="Play" />
+                        </button>
+                    </div>
+
+<!--                     <img-->
+<!--                        src="./img/story/video-cover.jpg"-->
+<!--                        alt="Video"-->
+<!--                        class="story-video-object"-->
+<!--                    />-->
+
+                    <video class="story-video-object" id="video-story">
+                        <source src="./video/customer-story.mp4" type="video/mp4">
+                    </video>
 
                 </div>
             </div>
